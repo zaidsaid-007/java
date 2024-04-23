@@ -1,0 +1,74 @@
+{
+    "tests": [
+        {
+            "name": "Server CLI",
+            "setup": "",
+            "run": "./build.sh test --test.java.TalkTest .serverMode",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 30
+        },
+        {
+            "name": "Talk Server",
+            "setup": "",
+            "run": "./build.sh test --test.java.TalkTest .talkServer",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 45
+        },
+        {
+            "name": "Client CLI",
+            "setup": "",
+            "run": "./build.sh test --test.java.TalkTest .clientMode",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 30
+        },
+        {
+            "name": "Talk Client",
+            "setup": "",
+            "run": "./build.sh test --test.java.TalkTest .talkClient",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 45
+        },
+        {
+            "name": "Auto CLI",
+            "setup": "",
+            "run": "./build.sh test --test.java.TalkTest .autoMode",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 45
+        },
+        {
+            "name": "Help CLI",
+            "setup": "",
+            "run": "./build.sh test --test.java.TalkTest .help",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 15
+        },
+        {
+            "name": "Start",
+            "setup": "",
+            "run": "./build.sh test --test.java.TalkTest .start",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 30
+        }
+    ]
+}

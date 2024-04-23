@@ -1,0 +1,64 @@
+{
+    "tests": [
+        {
+            "name": "RSendUDP Impl",
+            "setup": "",
+            "run": "./build.sh test --test.java.RSendUDPTest .mode .modeParameter .timeout .filename .localPort .receiver",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 15
+        },
+        {
+            "name": "RReceiveUDP Impl",
+            "setup": "",
+            "run": "./build.sh test --test.java.RReceiveUDPTest .mode .modeParameter .filename .localPort",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 15
+        },
+        {
+            "name": "RSendUDP Format",
+            "setup": "",
+            "run": "./build.sh test --test.java.RSendUDPTest .format",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 30
+        },
+        {
+            "name": "RReceiveUDP Format",
+            "setup": "",
+            "run": "./build.sh test --test.java.RReceiveUDPTest .format",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 30
+        },
+        {
+            "name": "RSendUDP Send File",
+            "setup": "",
+            "run": "./build.sh test --test.java.RSendUDPTest .sendFile",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 75
+        },
+        {
+            "name": "RReceiveUDP Receive File",
+            "setup": "",
+            "run": "./build.sh test --test.java.RReceiveUDPTest .receiveFile",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 75
+        }
+    ]
+}

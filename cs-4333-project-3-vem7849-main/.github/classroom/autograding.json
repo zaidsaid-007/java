@@ -1,0 +1,104 @@
+{
+    "tests": [
+        {
+            "name": "Status 400",
+            "setup": "",
+            "run": "./build.sh test --test.java.HttpServerTest .status-400",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 25
+        },
+        {
+            "name": "Status 501",
+            "setup": "",
+            "run": "./build.sh test --test.java.HttpServerTest .status-501",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 25
+        },
+        {
+            "name": "Status 404",
+            "setup": "",
+            "run": "./build.sh test --test.java.HttpServerTest .status-404",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 25
+        },
+        {
+            "name": "Status 200",
+            "setup": "",
+            "run": "./build.sh test --test.java.HttpServerTest .status-200",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 25
+        },
+        {
+            "name": "Reason Phrase",
+            "setup": "",
+            "run": "./build.sh test --test.java.HttpServerTest .reasonPhrase",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 10
+        },
+        {
+            "name": "Status Line",
+            "setup": "",
+            "run": "./build.sh test --test.java.HttpServerTest .statusLine",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 10
+        },
+        {
+            "name": "Content Type",
+            "setup": "",
+            "run": "./build.sh test --test.java.HttpServerTest .contentType",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 10
+        },
+        {
+            "name": "Entity Headers",
+            "setup": "",
+            "run": "./build.sh test --test.java.HttpServerTest .entityHeaders",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 10
+        },
+        {
+            "name": "Response Header",
+            "setup": "",
+            "run": "./build.sh test --test.java.HttpServerTest .responseHeader",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 50
+        },
+        {
+            "name": "Response",
+            "setup": "",
+            "run": "./build.sh test --test.java.HttpServerTest .response",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 50
+        }
+    ]
+}
